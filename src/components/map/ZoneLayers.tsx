@@ -4,7 +4,7 @@
 
 "use client";
 
-import { GeoJSON, Popup } from "react-leaflet";
+import { GeoJSON } from "react-leaflet";
 import { useMapState } from "@/contexts/MapContext";
 import { ZONES_GEOJSON } from "@/data/zones.geojson";
 import { ZONE_STYLES, LEVEL_LABELS } from "@/constants/map";
