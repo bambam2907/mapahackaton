@@ -33,7 +33,7 @@ export function filterPOIs(
 
     // ─── PASO 2: Filtro por perfil de usuario ───
     if (user) {
-      const { age, gender } = user;
+      const { age } = user;
 
       // Módulos universitarios: solo visibles para menores de 35
       if (poi.type === "modulo_uni" && age && age > 35) {
